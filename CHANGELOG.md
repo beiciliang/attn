@@ -6,6 +6,11 @@ Format: `[YYYY-MM-DD]` entries with categories: Added, Changed, Fixed, Removed.
 
 ---
 
+## [2026-02-17]
+
+### Fixed
+- **Session List Ordering Stability**: Daemon session listing now sorts by `label` with `id` as a deterministic tie-breaker, preventing same-label sessions from swapping order between refreshes.
+
 ## [2026-02-16]
 
 ### Fixed
